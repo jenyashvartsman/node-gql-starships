@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jenya Shvartsman",
@@ -13,5 +13,8 @@
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
     "graphql": "^15.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }

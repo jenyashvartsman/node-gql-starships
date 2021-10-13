@@ -1,0 +1,8 @@
+.starships-table td {
+    vertical-align: middle;
+}
+
+.starships-table img {
+    width: 100px;
+    height: 75px;
+}
